@@ -10,6 +10,16 @@ This project focuses on developing an efficient **Spam Detection System** that c
 - Develop an interpretable and deployable spam detection model.
 - Provide an intuitive **Tkinter GUI** for seamless user interaction.
 
+## 📂 **Project Structure:**
+```
+├── main.ipynb              # Jupyter Notebook with model development & analysis
+├── saving the model/       # Contains saved model and vectorizer files
+│   ├── spam_classifier.pkl
+│   └── count_vectorizer.pkl
+├── gui.py                  # Tkinter-based GUI application
+└── README.md               # Project documentation (this file)
+```
+
 ## 🛠️ **Approach & Methodology**
 ### **1. Data Preprocessing:**
 - Converted text to lowercase.
@@ -48,16 +58,6 @@ This project focuses on developing an efficient **Spam Detection System** that c
 - Efficient spam detection with minimal false negatives.
 - Easy-to-use GUI for real-time email classification.
 - Clean, well-documented, and production-ready code.
-
-## 📂 **Project Structure:**
-```
-├── main.ipynb               # Jupyter Notebook with model development & analysis
-├── saving the model/       # Contains saved model and vectorizer files
-│   ├── spam_classifier.pkl
-│   └── count_vectorizer.pkl
-├── gui.py                  # Tkinter-based GUI application
-└── README.md               # Project documentation (this file)
-```
 
 ## 🏆 **Acknowledgments:**
 - Dataset sourced from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection).
